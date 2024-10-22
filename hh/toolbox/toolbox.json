@@ -1,0 +1,48 @@
+[
+    {
+      "label": "Tool Group 1",
+      "id": "tool-group-1",
+      "diagram-types": [ "UMLClassDiagram" ],
+      "items": [
+        {
+          "label": "class",
+          "id": "tool-item-1",
+          "icon": "icon-UMLClass",
+          "rubberband": "rect",
+          "command": "my:add-element",
+          "command-arg": {
+            "id": "UMLClass",
+            "stereotype": "stereotype"
+          }
+        },
+        {
+          "label": "metaclass",
+          "id": "tool-item-2",
+          "icon": "icon-UMLClass",
+          "rubberband": "rect",
+          "command": "my:add-element2",
+          "command-arg": {
+            "id": "UMLClass",
+            "stereotype": "metaclass"
+            
+          }
+        },
+        {
+          "label": "instance relationshhip",
+          "id": "tool-item-3",
+          "icon": "icon-UMLClass",
+          "rubberband": "line",
+          "command": "my:add-element3",
+          "command-arg": {
+            "id": "UMLAssociation",
+            "stereotype": "instance of"
+            
+          }
+        }
+
+
+
+      ]
+    }
+
+  ]

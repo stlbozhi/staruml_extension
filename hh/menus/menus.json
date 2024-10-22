@@ -1,0 +1,26 @@
+{
+    "menu": [
+      {
+        "id": "menu1",
+        "label": "Menu1",
+        "submenu": [
+          {
+            "label": "Sub Menu1",
+            "id": "menu1.submenu1",
+            "command": "example:function1"
+          },
+          {
+            "label": "Sub Menu2",
+            "id": "menu1.submenu2",
+            "command": "example:function2"
+          },
+          { "type": "separator" },
+          {
+            "label": "Sub Menu3",
+            "id": "menu1.submenu3",
+            "command": "example:function3"
+          }
+        ]
+      }
+    ]
+  }
